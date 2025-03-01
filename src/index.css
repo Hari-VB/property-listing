@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.pagination-btn {
+  @apply w-10 h-10 flex items-center justify-center rounded-md shadow-sm 
+         border border-gray-300 text-gray-700 bg-gray-200 
+         hover:bg-gray-300 transition;
+}
+
+
+

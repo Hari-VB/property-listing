@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.pagination-btn {
+  @apply w-20 h-10 flex items-center justify-center rounded-md shadow-sm 
+         border border-gray-300 text-gray-700 bg-gray-200 
+         hover:bg-gray-300 transition;
+}
+
+
